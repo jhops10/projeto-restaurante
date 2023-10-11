@@ -1,7 +1,7 @@
 .banner {
   background-image: url('../../../assets/img/banner.jpg');
   height: 801px;
-  background-position: center top;
+  background-position: center;
   background-size: cover;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .content h1 {
-  color: var(--text-color);
+  color: var(--text-color-destaque);
   font-size: 3.125rem;
   font-weight: bold;
   padding-bottom: 2rem;
@@ -24,7 +24,7 @@
 .content a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--text-color);
+  color: var(--hover-link-color);
   background-color: var(--bg-dark-color);
   padding: 1rem 1.125rem;
   border-radius: 10px;
