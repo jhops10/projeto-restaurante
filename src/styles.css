@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --text-color: bisque;
+  --bg-dark-color: rgb(66, 60, 60);
+  --hover-link-color: yellow;
+  --hover-link-color-2: rgb(173, 173, 119);
+
+
+}
+
+body {
+  height: 100vh;
+  font-family: arial Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,17 @@
+
+.navbar-light .navbar-nav .nav-link.active-link {
+  color: var(--hover-link-color);
+  font-weight: bold;
+}
+
+.bg-navbar {
+  background-color: var(--bg-dark-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-link-color-2);
+}

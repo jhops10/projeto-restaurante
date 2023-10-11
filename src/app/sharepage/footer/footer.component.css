@@ -1,0 +1,37 @@
+.footer {
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+  background-color: var(--bg-dark-color);
+  padding: 1.25rem 0.625rem;
+
+}
+
+h1 {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 1.25rem;
+}
+p {
+  color: var(--text-color);
+  font-size: 0.75rem;
+}
+
+.nome-dev {
+  font-size: 0.75rem;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 1.125rem;
+}
+
+a:hover{
+  color: var(--hover-link-color);
+}
+
+.icon {
+  padding: 0.625rem;
+}
