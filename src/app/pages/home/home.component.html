@@ -33,3 +33,17 @@
     </div>
   </div>
 </div>
+
+<div class="container mt-4 mb-4">
+  <p class="text-center titulo-steps">Os mais pedidos</p>
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let food of foodData; index as i">
+      <div class="foodbox" *ngIf="i <= 3">
+        <img src="{{ food.foodImg }}" />
+        <h1>{{ food.foodName }}</h1>
+        <p>{{ food.foodPrice | currency : "BRL" }}</p>
+      </div>
+    </div>
+  </div>
+  <a routerLink="menu" class="btn-mais-opcoes"> + Opções</a>
+</div>

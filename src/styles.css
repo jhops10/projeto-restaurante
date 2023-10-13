@@ -9,6 +9,7 @@
   --text-color: #A6826D;
   --text-color-destaque: #D9B29C;
   --bg-dark-color: #261C14;
+  --bg-dark-contrast: #594736;
   --hover-link-color: #D9AE30;
   --hover-link-color-2: #D9B29C;
 
@@ -18,4 +19,5 @@
 body {
   height: 100vh;
   font-family: arial Arial, Helvetica, sans-serif;
+  background-color: #F8F9FA;
 }

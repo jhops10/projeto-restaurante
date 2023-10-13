@@ -9,13 +9,13 @@
   top: 18%;
   left: 20%;
   position: absolute;
-  background-color: #00000057;
+  /* background-color: #00000057; */
   padding: 30px;
   border-radius: 10px;
 }
 
 .content h1 {
-  color: var(--text-color-destaque);
+  color: white;
   font-size: 3.125rem;
   font-weight: bold;
   padding-bottom: 2rem;
@@ -55,4 +55,32 @@
   font-size: 20px;
   font-style: italic;
   color: var(--text-color);
+}
+
+
+.foodbox {
+  padding: 0.625rem 0.313rem;
+}
+
+.foodbox img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+
+.foodbox h1 {
+  font-size: 1.125rem;
+  margin-top: 1.25rem;
+  font-weight: bold;
+}
+
+.btn-mais-opcoes {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--hover-link-color);
+  background-color: var(--bg-dark-color);
+  padding: 1rem 1.125rem;
+  border-radius: 10px;
 }
