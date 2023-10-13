@@ -7,7 +7,9 @@
         <h1>{{ food.foodName }}</h1>
         <p>{{ food.foodDetails }}</p>
         <p>{{ food.foodPrice | currency : "BRL" }}</p>
-        <a class="btn-pedido bi bi-cart"> Fazer Pedido</a>
+        <a [routerLink]="['/menu', food.id]" class="btn-pedido bi bi-cart">
+          Fazer Pedido</a
+        >
       </div>
     </div>
   </div>
